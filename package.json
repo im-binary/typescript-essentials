@@ -1,0 +1,22 @@
+{
+  "name": "typescript-essentials",
+  "version": "1.0.0",
+  "description": "typescript-essentials 실습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pongdang/typescript-essentials.git"
+  },
+  "author": "pongdang, creaticoding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pongdang/typescript-essentials/issues"
+  },
+  "homepage": "https://github.com/pongdang/typescript-essentials#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
