@@ -1,7 +1,7 @@
 # 2 day
 
 - js는 Dynamic Types라서 type이 잘못되었는지 런타임에서만 확인할 수 있다.
-- ts는 Static Types라서 type이 잘못되었는지 그때그때 확인할 수 있다.
+- ts는 Static Types라서 type이 잘못되었는지 개발하면서 그때그때 확인할 수 있다.
 
 - Primtive Type
     - 실제 값을 저장하는 자료형
