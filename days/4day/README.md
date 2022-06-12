@@ -10,13 +10,13 @@
 자바스크립트는 함수의 input 타입을 알 수 없기 때문에 함수 사용법에 대해 오해를 야기시킨다.
 타입스크립트를 사용하면 이러한 오해를 막을 수 있다.
 
-(`nolmplicitAny` 옵션이 켜져있다고 가정)
+(`noImplicitAny` 옵션이 켜져있다고 가정)
 타입스크립트 컴파일러가 자동으로 타입을 추론하게 놔두는 경우, 문제가 생기면 컴파일 에러를 발생시켜 명시적으로 타입을 지정하도록 유도한다.
 주의할 점 : 모든 타입에 number와 undefined가 포함되어 있기 때문에 예상치 못한 동작을 마주하게 될 수도 있다.
 
 `strictNullChecks` 옵션을 켜면 모든 타입에 자동으로 포함되어 있는 `null` 과 `undefined` 를 제거해준다
 
-`nolmplicitAny` 옵션을 켜면 함수 내에서 모든 코드가 값을 리턴하지 않으면 컴파일 에러를 발생시킨다.
+`noImplicitAny` 옵션을 켜면 함수 내에서 모든 코드가 값을 리턴하지 않으면 컴파일 에러를 발생시킨다.
 
 ## Structural Type System vs Nominal Type System
 
