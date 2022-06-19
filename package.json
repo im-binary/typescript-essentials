@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/pongdang/typescript-essentials#readme",
   "dependencies": {
+    "react": "^18.2.0",
     "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.14"
   }
 }
